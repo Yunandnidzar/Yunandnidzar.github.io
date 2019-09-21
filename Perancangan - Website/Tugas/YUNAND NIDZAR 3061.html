@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  div{
+    display: inline-block;
+  }
+  body{
+    background: rgb(218, 194, 62)
+  }
+  .login{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(160, 36, 36, 0.63);
+    padding-top: 10px;
+    border-radius: 6px;
+    float: left;
+    margin: 20px;
+  }
+  input[type=text], input[type=password], input[type=date]{
+    border: none;
+    background-color:rgba(255, 228, 196, 0);
+    width: 80%;
+    height: 30px;
+    padding-left: 15px;
+    display:block;
+    margin: 5px auto;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+  }
+  input[type=radio],input[type=checkbox], input[type=button]{
+    margin-left:50px;
+    margin-top: 3px;
+   }
+  p {
+    display: inline;
+    color: white;
+  }
+  .register{
+    width: 300px;
+    height: 600px;
+    background-color: rgba(160, 36, 36, 0.63);
+    padding-top: 10px;
+    border-radius: 6px;
+    float: left;
+    margin: 20px;
+    }
+  .login input::placeholder {
+    color: white;
+  }
+  .register input::placeholder {
+    color: white;
+  }  
+  button{
+    background-color: rgb(223, 204, 204);
+    border-radius: 3px;
+    border: none;
+    margin:10px auto;
+    display:block;
+    width: 85%;
+    height: 30px;    
+  } 
+
+  h1{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+  }
+ 
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+</head>
+<body>
+<div class="login">
+  <h1>Silahkan Login
+
+  </h1>
+  <Form>
+    <input type="text" name="username" placeholder="Masukkan Username" id="" >
+    <input type="password" name="password"  placeholder="Masukkan Password" id="" >
+    <input type="radio" name="gender" value="Laki Laki"> <p>Laki Laki</p>
+    <input type="radio" name="gender" value="Laki Laki"> <p>Perempuan </p> <br>
+    <input type="checkbox" name="cek" value="Laki Laki"> <p>Saya Menyetujui </p><br>
+    <button>Login</button>
+    
+  </Form>
+</div>
+<div class="register">
+    <h1>Silahkan Daftar
+
+      </h1>
+      <Form>
+          <input type="text" name="firstname" placeholder="Nama Depan" id="" >
+          <input type="text" name="lastname" placeholder="Nama Akhir" id="" >
+          <input type="text" name="username" placeholder="Username" id="" >
+          <input type="date" name="date" placeholder="Tanggal Lahir" id="" >
+          <input type="text" name="username" placeholder="Email" id="" >
+          <input type="password" name="password"  placeholder="Password" id="" >
+          <input type="password" name="password"  placeholder="Konfirmasi Password" id="" >
+          <input type="radio" name="gender" value="Laki Laki"> <p>Laki Laki</p>
+          <input type="radio" name="gender" value="Laki Laki"> <p>Perempuan </p> <br>
+          <input type="checkbox" name="cek" value="Laki Laki"> <p>Saya Menyetujui </p><br>
+          <button>Daftar</button>  
+</div>
+</body>
+</html>
