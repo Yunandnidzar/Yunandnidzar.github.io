@@ -86,12 +86,6 @@ padding-right: 135px;
 color: #FF748E;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-/* .katakata2{
-    text-align: left;
-    margin-left:230px;  
-    color: #FF748E;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}  */
 button {
     background-color: #FF748E;
     border: none;
@@ -101,7 +95,20 @@ button {
     padding: 15px 32px;
     font-size: 16px;
     float: right;
-    margin-top: 15px;
-    margin-right: 280px;
+    margin-top: 20px;
+    margin-left: 650px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
+  button a{
+    text-decoration: none;
+    color: white;
+  }
+  .telf {
+    height: 60px;
+    margin-right: 30px;
+    margin-top: 200px;
+     }
+   .kotaktelf{
+     float: right;
+     bottom: none;
+   }

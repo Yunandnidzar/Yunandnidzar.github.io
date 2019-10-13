@@ -1,88 +1,87 @@
-  *{
-      margin: 0;
-      padding: 0;
-  }  
-  div{
-    display: inline-block;
-  }
-  body{
-    background: rgb(255, 255, 255);
-    text-align: center;
-    background-image: url(datadiri.png);  
-    background-size: 65%;
-    background-repeat: no-repeat;
-    background-position: center;  
-    background-position-y: 30px;
-  }
-  .login{
-    width: 600px;
-    height: 430px;
-    background-color: rgba(228, 133, 133, 0.39);
-    padding-top: 10px;
-    border-radius: 20px;
-    margin: 20px ;
-  }
-  .login h2{
-      text-align: center;
-      margin-top: 10px;
-      margin-bottom: 20px;
-  }
-  input[type=text], input[type=password], input[type=date]{
-    border: none;
-    background-color:white;
-    width: 80%;
-    height: 30px;
-    padding-left: 15px;
-    display:block;
-    margin: 5px auto;
-    border-radius: 8px;
-    color: rgb(228, 133, 133);
-
-  }
-  footer {
-    background-image: linear-gradient(to left, rgba(189, 75, 170, 0.603), rgb(165, 55, 150));
-    height: 30px;
-    text-align: center auto ;
-    padding-top: 10px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  }
-  footer p{
-      color: #FFC0B5;
-  }
-  
-  input[type=radio],input[type=checkbox], input[type=button]{
-    margin-left:50px;
-    margin-top: 3px;
-   }
-  p {
-    display: inline;
-    color: white;
-  }
-  .login input::placeholder {
-    color: rgb(228, 133, 133);
-  }
-  
-  button{
-    background-color:white;
-    border-radius: 3px;
-    border: none;
-    margin:10px auto;
-    display:block;
-    width: 83%;
-    height: 30px;    
-    color: rgb(228, 133, 133);
-  } 
-
-  h2{
-    text-align: center;
-    font-size: 16pt;
-    margin-top: 30px;
-    color: white;
-  }
-  ul {
+*{
+  margin: 0;
+  padding: 0;
+}  
+div{
+  display: inline-block;
+}
+body{
+  background: rgb(255, 255, 255);
+  text-align: center;
+  background-image: url(datadiri.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 30px;
+}
+.login{
+  width: 600px;
+  height: 430px;
+  background-color: rgba(228, 133, 133, 0.39);
+  padding-top: 10px;
+  border-radius: 20px;
+  margin: 10px ;
+}
+.login h2{
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+input[type=text], input[type=password], input[type=date]{
+  border: none;
+  background-color:white;
+  width: 80%;
+  height: 30px;
+  padding-left: 15px;
+  display:block;
+  margin: 5px auto;
+  border-radius: 8px;
+  color: #FF748E;;
+}
+footer {
+  background-image: linear-gradient(to left, rgba(189, 75, 170, 0.603), rgb(165, 55, 150));
+  height: 30px;
+  text-align: center auto ;
+  padding-top: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer p{
+  color: #FFC0B5;
+}
+input[type=radio],input[type=checkbox], input[type=button]{
+  margin-left:50px;
+  margin-top: 3px;
+}
+p{
+  display: inline;
+  color: white;
+}
+.login input::placeholder {
+  color: #FF748E;
+}
+button{
+  background-color:white;
+  border-radius: 3px;
+  border: none;
+  margin:10px auto;
+  display:block;
+  width: 83%;
+  height: 30px; 
+  color: #FF748E; 
+} 
+button a{
+  text-decoration: none;
+}
+h2{
+  text-align: center;
+  font-size: 16pt;
+  margin-top: 30px;
+  color: white;
+}
+ul{
   list-style-type: none;
   margin: 0;
   padding-left: 20px;
@@ -116,19 +115,15 @@ li a:hover:not(.active) {
   padding-right: 30px;
 }
 @font-face{
-    font-family: "ajax";
-    src: url(AJAX_AMSTERDAM_2016_2017.ttf);
+  font-family: "ajax";
+  src: url(AJAX_AMSTERDAM_2016_2017.ttf);
 }
 .fontajax{
-    font-family: "ajax";
-    color: #FF748E;
-    font-size: 50px;
-    letter-spacing: 3px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  font-family: "ajax";
+  color: #FF748E;
+  font-size: 60px;
+  letter-spacing: 6px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 } 
-.telepon{
-    width:40px;
-    margin-left: 0;
-}
-    
+

@@ -92,3 +92,39 @@ button {
     margin-right: 280px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
+  .telf {
+    height: 60px;
+    margin-right: 30px;
+    margin-top: 200px;
+     }
+   .kotaktelf{
+     float: right;
+     bottom: none;
+   }
+.kotakgede{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 100px;
+  overflow: hidden;
+}
+
+.iconrs {
+  background-color: white;
+  width: 35%;
+  margin: 30px auto;
+  margin-right: 40px;
+}
+.iconrs img{
+  width: 100%;
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+.iconrs p{
+  color: #FF748E;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+}

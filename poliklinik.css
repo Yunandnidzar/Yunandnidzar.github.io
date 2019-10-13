@@ -79,7 +79,7 @@ padding-right: 30px;
   margin-top: 50px;
   text-align: center;
 }
-button {
+/* button {
     background-color: #FF748E;
     border: none;
     border-radius: 10px;
@@ -89,6 +89,41 @@ button {
     font-size: 16px;
     float: right;
     margin-top: 15px;
-    margin-right: 280px;
+    margin-right: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  } */
+  .telf {
+    height: 60px;
+    margin-right: 30px;
+    margin-top: 200px;
+     }
+   .kotaktelf{
+     float: right;
+     bottom: none;
+   }
+   .button1{ 
+     width: 61%;
+     display: grid;
+     grid-column-gap: 40px;
+     grid-template-columns: 250px 250px 250px;
+     padding: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 60px;
+   }
+   button {
+    background-color: #FF748E;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.8;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  button a{
+    text-decoration: none;
+    color: white;
   }
