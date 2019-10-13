@@ -103,7 +103,7 @@ button {
    }
 .kotakgede{
   width: 400px;
-  height: 400px;
+  min-height: 400px;
   position: absolute;
   left: 100px;
   overflow: hidden;
@@ -118,13 +118,16 @@ button {
 .iconrs img{
   width: 100%;
   display: block;
+  margin-bottom: 10px;
 }
 
 .clear {
   clear: both;
 }
-.iconrs p{
+.iconrs a{
   color: #FF748E;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: none;
 }

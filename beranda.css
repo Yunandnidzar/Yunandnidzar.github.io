@@ -113,7 +113,7 @@ button {
  height: 60px;
  margin-right: 30px;
  margin-top: 200px;
- filter: drop-shadow(1px 1px 10px grey);
+ filter: drop-shadow(1px 1px 10px #FF748E);
   }
 .kotaktelf{
   float: right;

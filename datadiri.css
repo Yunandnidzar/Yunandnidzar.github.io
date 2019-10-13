@@ -26,6 +26,14 @@ body{
   text-align: center;
   margin-top: 8px;
   margin-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.login form button a{
+  color: #FF748E;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
 }
 input[type=text], input[type=password], input[type=date]{
   border: none;
