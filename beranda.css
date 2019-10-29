@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }  
 div{
   display: inline-block;
@@ -25,7 +25,7 @@ footer {
   width: 100%;
 }
 footer p{
-    color: #FFC0B5;
+  color: #FFC0B5;
 }
 p {
   display: inline;
@@ -35,36 +35,36 @@ p {
   color: rgb(228, 133, 133);
 }
 ul {
-list-style-type: none;
-margin: 0;
-padding-left: 20px;
-overflow: hidden;
-background-color:#FFF8F6;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
+  list-style-type: none; 
+  margin: 0;
+  padding-left: 20px;
+  overflow: hidden;
+  background-color:#FFF8F6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 li {
-float: left;
+  float: left;
 }
 
 li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-color: #FF748E;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #FF748E;
 }
 
 li a:hover:not(.active) {
-background-color:#FFF8F6;
-color: #FF748E;
+  background-color:#FFF8F6;
+  color: #FF748E;
 }
 
 .active {
-background-color:#FFF8F6;
-color: #FF748E;
+  background-color:#FFF8F6;
+  color: #FF748E; 
 }
 @font-face{
   font-family: "ajax";
@@ -80,40 +80,40 @@ color: #FF748E;
   text-align: left
 } 
 .katakata1{
-text-align: left;
-margin-left:190px;  
-color: #FF748E;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  text-align: left;
+  margin-left:190px;  
+  color: #FF748E;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .katakata2{
-    text-align: left;
-    margin-left:230px;  
-    color: #FF748E;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  text-align: left;
+  margin-left:230px;  
+  color: #FF748E;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 } 
 button {
-    background-color: #FF748E;
-    border: none;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    opacity: 0.8;
-    padding: 15px 32px;
-    text-align: left;
-    font-size: 16px;
-    float: left;
-    margin-top: 15px;
-    margin-left: 270px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  }
+  background-color: #FF748E;
+  border: none;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  padding: 15px 32px;
+  text-align: left;
+  font-size: 16px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 270px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
   button a{
-    text-decoration: none;
-    color: white;
-  }
+  text-decoration: none;
+  color: white;
+}
 .telf {
- height: 60px;
- margin-right: 30px;
- margin-top: 200px;
- filter: drop-shadow(1px 1px 10px #FF748E);
+  height: 60px;
+  margin-right: 30px;
+  margin-top: 200px;
+  filter: drop-shadow(1px 1px 10px #FF748E);
   }
 .kotaktelf{
   float: right;

@@ -27,7 +27,6 @@ body{
   margin-top: 8px;
   margin-bottom: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
 }
 .login form button a{
   color: #FF748E;
@@ -35,7 +34,7 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
-input[type=text], input[type=password], input[type=date]{
+input[type=text], input[type=password], input[type=date], input[type=email], input[type=number]{
   border: none;
   background-color:white;
   width: 80%;
@@ -59,7 +58,7 @@ footer {
 footer p{
   color: #FFC0B5;
 }
-input[type=radio],input[type=checkbox], input[type=button]{
+input[type=radio],input[type=checkbox], input[type=button], button {
   margin-left:50px;
   margin-top: 3px;
 }
