@@ -24,9 +24,81 @@
     <input type="number" name="notelp"  placeholder="No Telp." required >
     <input type="date" name="tgllahir"  placeholder="Tgl Lahir" required>
     <input type="text" name="alamat"  placeholder="Alamat" required>
-    <input type="text" name="kelurahan"  placeholder="Kelurahan" required>
-    <input type="text" name="kecamatan"  placeholder="Kecamatan" required>
-    <input type="text" name="provinsi"  placeholder="Provinsi" required>
+    <select name="ddlProvinsi" id="ddlProvinsi" class="form-control" onchange="comboboxkota()">
+
+      <option value="0" selected>- Pilih Provinsi -</option>
+
+      <option value="1">Aceh</option>
+
+      <option value="2">Sumatera Utara</option>
+
+      <option value="3">Sumatera Barat</option>
+
+      <option value="4">Riau</option>
+
+      <option value="5">Jambi</option>
+
+      <option value="7">Bengkulu</option>
+
+      <option value="6">Sumatera Selatan</option>
+
+      <option value="8">Lampung</option>
+
+      <option value="10">Kepulauan Riau</option>
+
+      <option value="9">Kepulauan Bangka Belitung</option>
+
+      <option value="16">Banten</option>
+
+      <option value="12">Jawa Barat</option>
+
+      <option value="11">DKI Jakarta</option>
+
+      <option value="13">Jawa Tengah</option>
+
+      <option value="15">Jawa Timur</option>
+
+      <option value="14">Daerah Istimewa Yogyakarta</option>
+
+      <option value="17">Bali</option>
+
+      <option value="18">Nusa Tenggara Barat</option>
+
+      <option value="19">Nusa Tenggara Timur</option>
+
+      <option value="20">Kalimantan Barat</option>
+
+      <option value="22">Kalimantan Selatan</option>
+
+      <option value="21">Kalimantan Tengah</option>
+
+      <option value="23">Kalimantan Timur</option>
+
+      <option value="26">Sulawesi Selatan</option>
+
+      <option value="27">Sulawesi Tenggara</option>
+
+      <option value="24">Sulawesi Utara</option>
+
+      <option value="28">Gorontalo</option>
+
+      <option value="30">Maluku</option>
+
+      <option value="33">Papua Barat</option>
+
+      <option value="32">Papua</option>
+
+      <option value="31">Maluku Utara</option>
+
+      <option value="25">Sulawesi Tengah</option>
+
+  </select>
+
+  <select name="ddlKota" id="ddlKota" class="form-control">
+
+      <option selected="selected" value="0">- Pilih Kota -</option>
+
+  </select>
     <button type="submit">L A N J U T K A N</button>
   </Form>
 </div>
@@ -36,4 +108,6 @@
     Dinas Kesehatan Kab. Jember
   </p>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="Datakota.js"></script>
 </html>
