@@ -134,4 +134,68 @@ li a:hover:not(.active) {
   margin-top: 50px;
   margin-bottom: 10px;
 } 
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+  color: #FF748E;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+   
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.abc{
+  border: none;
+
+    color: #FFFFFF;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
+
+    padding: 4px 10px;
+    
+    background-color: #FF748E;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+.modalSubmit{
+
+}

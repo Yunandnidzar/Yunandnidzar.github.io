@@ -17,7 +17,7 @@
 <div class="login">
   <h2>Isikan Data Diri anda untuk mendapatkan No Antrian!
   </h2>
-  <Form action="selamat.html">
+
     <input type="text" name="username" placeholder="NAMA" required>
     <input type="number" name="NIK"  placeholder="NIK" required>
     <input type="email" name="email"  placeholder="Email" required >
@@ -95,12 +95,19 @@
   </select>
 
   <select name="ddlKota" id="ddlKota" class="form-control">
-
       <option selected="selected" value="0">- Pilih Kota -</option>
-
   </select>
-    <button type="submit">L A N J U T K A N</button>
-  </Form>
+    <button type="submit" id="myBtn">L A N J U T K A N</button>
+</div>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modalSubmit">
+      Apakah Data Diri Anda Sudah Benar?
+      <br><br>
+      <a href="selamat.html"> <button type="submit" class="abc">Ya, Saya Yakin</button></a>
+    </div>
+  </div>
 </div>
 </body>
 <footer>
@@ -110,4 +117,5 @@
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="Datakota.js"></script>
+<script src="modal.js"></script>
 </html>
