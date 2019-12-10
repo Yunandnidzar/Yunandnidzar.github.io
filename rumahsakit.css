@@ -102,15 +102,16 @@ button {
      bottom: none;
    }
 .kotakgede{
-  width: 400px;
+  width: 30%;
   min-height: 400px;
   position: absolute;
-  left: 100px;
+  left: 80px;
+  margin: auto;
   overflow: hidden;
+  margin-left: 50px;
 }
 
 .iconrs {
-  background-color: white;
   width: 35%;
   margin: 30px auto;
   margin-right: 40px;
@@ -130,4 +131,32 @@ button {
   font-size: 18px;
   margin-top: 20px;
   text-decoration: none;
+}
+@media only screen and (max-width: 950px){
+  body{
+  background-size: cover;
+}
+  .kotakgede {
+    width: 400px;
+    margin-top: 50%;
+    margin-left: 20%;
+    margin-bottom: 30px;
+  }
+  .iconrs {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 600px){
+  .kotakgede {
+    margin-top: 60%;
+    width: 400px;
+    margin-left: -20px;
+    margin-bottom: 30px;
+  }
+  .iconrs {
+    width: 25%;
+  }
+  .fontajax{
+    font-size: 30pt;
+  }
 }

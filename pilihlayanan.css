@@ -79,14 +79,24 @@ li a:hover:not(.active) {
   margin-right: 150px;
   margin-top: 200px;
   text-align: right;
+  float: right;
+  width: 100%;
 } 
+.container{
+  width: 100%;
+}
 .katakata1{
   text-align: right;
   padding-right: 135px;  
   color: #FF748E;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+.btn{
+  float: right;
+  margin-right: 11%;
+}
 button {
+  width: 200px;
   background-color: #FF748E;
   border: none;
   border-radius: 10px;
@@ -96,7 +106,7 @@ button {
   font-size: 16px;
   float: right;
   margin-top: 20px;
-  margin-left: 650px;
+  left: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 button a{
@@ -111,4 +121,46 @@ button a{
 .kotaktelf{
   float: right;
   bottom: none;
+}
+@media only screen and (max-width: 1300px){
+  .btn{
+    margin-right: 13%;
+  }
+}
+@media only screen and (max-width: 900px){
+  body{
+    background-size: cover;
+    margin: auto;
+  }
+  .btn{
+    margin-right: 18%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .btn{
+    margin-right: 25%;
+  }
+}
+@media only screen and (max-width: 500px){
+  body {
+    background-size: cover;
+  }
+  .container{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .fontajax{
+    margin-top: 100px;
+    margin-left: 23%;
+    text-align: center;
+  }
+  .katakata1{
+    margin-left: 23%;
+    text-align: center;
+  }
+  .btn{
+    margin-left: 20%;
+    margin-right: 25%;
+  }
 }

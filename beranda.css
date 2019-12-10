@@ -119,3 +119,28 @@ button {
   float: right;
   bottom: none; 
 }
+@media only screen and (max-width: 1000px){
+  body {
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 1360px){
+  .kotaktelf {
+    margin-top: -80px;
+  }
+  .telf{
+    margin-top: 190px;
+  }
+@media only screen and (max-width: 500px){
+  .fontajax{
+    margin-left: 130px;
+  }
+  .kata-res{
+    text-align: center;
+    margin-left: 25px;
+  }
+  .mulais {
+    margin-top: 5;
+    margin-left: 200px;
+  }
+}
